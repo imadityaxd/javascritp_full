@@ -1,0 +1,14 @@
+#first{
+    border-style: solid;
+    padding: 5px;
+
+}
+.image{
+    display:inline-block;
+}
+.text{
+    background-color: aqua;
+}
+body{
+    margin: 20px;
+}

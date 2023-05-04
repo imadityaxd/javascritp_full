@@ -1,0 +1,50 @@
+.nav {
+  background-color: transparent;
+  overflow: hidden;
+  padding-bottom: 15px;
+  border: 3px solid yellow;
+  border-radius: 25px;
+  box-shadow: 0 0 10px 0 yellow inset, 0 0 10px yellow;
+}
+.nav a {
+  padding:10px 14px;
+  margin:2px;
+  float: left;
+  color: #f2f2f2;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  border:3px solid #f2f2f2;
+  border-radius: 25px;
+}
+.nav a:hover {
+  background-color: white;
+  color: #222222;
+}
+.nav a.active {
+  background-color: transparent;
+  color: yellow;
+  border: 3px solid yellow;
+  text-decoration: underline;
+  box-shadow: 0 0 10px 0 yellow inset, 0 0 10px 0 yellow ;
+}
+.container{
+  text-align: center;
+  padding: 70px 0;
+}
+#first{
+  color:#00d7c3;
+  background-color: transparent;
+  border:3px solid #00d7c3;
+  border-radius:25px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  font:bold 20px "Codec Pro";
+  width:auto;
+  height:auto;
+  padding:10px;
+}
+#first:hover{
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border:3px solid #00d7c3;
+}
