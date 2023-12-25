@@ -6,6 +6,28 @@
     <title>Map Method</title>
 </head>
 <body>
-    
+    <h1 id="head" >Map method in JavaScript</h1>
+    <p id ="second">hi</p>
+    <script>
+        const arr = [1, 2, 3, 4];
+        let x = arr.map((item) => {
+            return item * 10;
+        })
+        const y = document.getElementById('head');
+        y.innerHTML = x;
+
+        //extracting object properties into an array
+       const people = [
+        { name: 'Aditya', age:19},
+        { name:'Yash', age: 16},
+        { name:'Subh', age: 10}
+    ];
+    //use map() to create an array
+    const names = people.map((person) => {
+        return person.name;
+    });
+    const a = document.getElementById('second');
+    a.innerHTML = names;
+    </script>
 </body>
 </html>
