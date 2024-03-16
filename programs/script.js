@@ -10,3 +10,14 @@ function showInput() {
     console.log(5 + num);
 }
 
+
+// JavaScript program to reverse a word 
+function reverseWord(){
+    let enterWord = document.getElementById("enterWord").value;
+    
+    let result = enterWord.split(" ").map(function(word){
+        return word.split("").reverse().join(" ");
+    });
+    document.getElementById("result").innerHTML = result.join(", ");
+
+}

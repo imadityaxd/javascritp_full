@@ -1,0 +1,31 @@
+.nameChanger{
+    margin:20px;
+    padding:20px;
+    border:solid 2px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+label{
+    font-size: 24px;
+}
+#enterWord{
+    font-size: 24px;
+    margin:5px;
+    border-radius:5px;
+    align-self: center;
+    width:60%;
+    padding:5px;
+}
+button{
+    padding:10px;
+    border-radius: 10px;
+    width:auto;
+    align-self: center;
+}
+#result{
+    font-size: 24px;
+    
+}
